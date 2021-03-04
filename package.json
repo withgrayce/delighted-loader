@@ -1,11 +1,8 @@
 {
   "name": "delighted-loader",
   "description": "Async loader for the delighted api (browser, typescript)",
-  "version": "0.0.0-version-placeholder",
-  "author": {
-    "name": "Aubrey Holland",
-    "email": "aubrey@withgrayce.com"
-  },
+  "version": "0.0.2",
+  "author": "Aubrey Holland <aubrey@withgrayce.com>",
   "keywords": [
     "delighted",
     "asynchronous",
@@ -16,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:withgrayce/delighted-loader.git"
+    "url": "git+ssh://git@github.com/withgrayce/delighted-loader.git"
   },
   "license": "MIT",
   "main": "./lib/cjs/index.js",
@@ -30,5 +27,12 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json"
+  },
+  "bugs": {
+    "url": "https://github.com/withgrayce/delighted-loader/issues"
+  },
+  "homepage": "https://github.com/withgrayce/delighted-loader#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
