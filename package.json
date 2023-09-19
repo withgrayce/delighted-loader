@@ -22,7 +22,7 @@
   "sideEffects": false,
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "18.17.17",
+    "@types/node": "20.6.2",
     "typescript": "5.2.2"
   },
   "scripts": {
